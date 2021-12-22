@@ -1,7 +1,7 @@
 const path = require('path');
 const resolve = dir => path.join(__dirname, dir);
 const TerserPlugin = require('terser-webpack-plugin');
-const IS_PROD = ['production', 'prd', 'cib', 'cibp', 'uat', 'fh'].includes(process.env.NODE_ENV);
+const IS_PROD = ['production', 'prod', 'cib', 'cibp', 'uat'].includes(process.env.NODE_ENV);
 
 module.exports = {
 	publicPath: IS_PROD ? '/qdp2-capricornus-h5/' : '/', //如果部署不在是根路径需要做修改

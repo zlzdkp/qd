@@ -5,11 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "vue-cli-service serve --mode dev",
-    "fh": "vue-cli-service serve --mode fh",
     "uat": "vue-cli-service build --mode uat",
-    "prd": "vue-cli-service build --mode prd",
     "build:pro": "vue-cli-service build --mode pro",
-    "build:fh": "vue-cli-service build --mode fh",
     "cib": "vue-cli-service build --mode cib",
     "cib:prd": "vue-cli-service build --mode cibp",
     "mock": "nodemon node ./mock/app.js"
@@ -25,7 +22,7 @@
     "axios": "^0.21.4",
     "core-js": "^2.6.5",
     "dayjs": "^1.10.7",
-    "js-base64": "^3.7.2",
+    "element-ui": "^2.15.6",
     "lodash-es": "^4.17.21",
     "nprogress": "^0.2.0",
     "qdp2-oss": "^0.1.9",
